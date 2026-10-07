@@ -1,12 +1,436 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>American sneakers</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>American Sneakers | Venta de Tenis Exclusivos</title>
+  
+  <!-- Fuentes Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+  <!-- Barra de aviso superior -->
+  <div class="top-bar">
+    <p>🔥 ENVÍOS A TODO EL PAÍS — MODELOS 100% EXCLUSIVOS Y ORIGINALES 🔥</p>
+  </div>
+
+  <!-- Encabezado / Navegación -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <span class="logo-accent">AMERICAN</span> SNEAKERS
+      </a>
+      <nav class="nav-links">
+        <a href="#inicio" class="active">Inicio</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a href="https://wa.me/5912345678?text=Hola%20American%20Sneakers,%20quisiera%20más%20información" target="_blank" class="btn-nav">
+        Atención VIP
+      </a>
+    </div>
+  </header>
+
+  <!-- Sección Hero / Portada -->
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <span class="hero-badge">Colección 2026</span>
+      <h1>PISA FUERTE.<br><span class="gradient-text">ELEVA TU ESTILO.</span></h1>
+      <p class="hero-subtitle">
+        Descubre los tenis más codiciados del mercado. Ediciones limitadas, confort supremo y el diseño urbano que te distingue.
+      </p>
+      <div class="hero-actions">
+        <a href="#catalogo" class="btn-primary">Ver Colección</a>
+        <a href="https://wa.me/5912345678" target="_blank" class="btn-secondary">Consultar por WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Características destacadas -->
+  <section class="features">
+    <div class="container features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">👟</div>
+        <h3>100% Auténticos</h3>
+        <p>Garantía de calidad y autenticidad en cada par.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🚀</div>
+        <h3>Envíos Rápidos</h3>
+        <p>Despacho inmediato a tu puerta con rastreo.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">💎</div>
+        <h3>Ediciones Exclusivas</h3>
+        <p>Modelos únicos que no verás en cualquier lado.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">💬</div>
+        <h3>Atención Directa</h3>
+        <p>Asesoramiento personalizado vía WhatsApp.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Catálogo / Productos -->
+  <main class="catalog-section" id="catalogo">
+    <div class="container">
+      <div class="section-header">
+        <h2>Catálogo <span class="gradient-text">Exclusivo</span></h2>
+        <p>Pasa el cursor o toca la tarjeta en <strong>"Ver detalle"</strong> para revelar las especificaciones secretas.</p>
+      </div>
+
+      <div class="products-grid">
+
+        <!-- Producto 1 -->
+        <div class="card-container" tabindex="0">
+          <div class="card">
+            <!-- Frente de la Tarjeta -->
+            <div class="card-front">
+              <div class="card-img-wrap">
+                <span class="badge-tag glow">Bestseller</span>
+                <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=800&q=80" alt="Air Jordan Retro High">
+              </div>
+              <div class="card-front-info">
+                <span class="category">Urban High Top</span>
+                <h3 class="product-title">Air Jordan Retro High</h3>
+                <div class="price-row">
+                  <span class="price">$189.99</span>
+                  <div class="btn-trigger">Ver detalle <span class="arrow">→</span></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Reverso de la Tarjeta (Misma imagen oscurecida al fondo) -->
+            <div class="card-back" style="background-image: url('https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=800&q=80');">
+              <div class="card-back-overlay"></div>
+              <div class="card-back-content">
+                <div>
+                  <span class="detail-label">Detalles del Par</span>
+                  <h3 class="back-title">Air Jordan Retro High</h3>
+                  <ul class="spec-list">
+                    <li><strong>Tallas disponibles:</strong> 38, 39, 40, 41, 42, 43 EU</li>
+                    <li><strong>Material:</strong> Cuero genuino vacuno premium</li>
+                    <li><strong>Suela:</strong> Goma vulcanizada de alta tracción</li>
+                    <li><strong>Edición:</strong> Coleccionista / Premium</li>
+                    <li><strong>Envío:</strong> Gratis a todo el país</li>
+                  </ul>
+                </div>
+                <div class="back-footer">
+                  <span class="stock-status">✓ En Stock Garantizado</span>
+                  <a href="https://wa.me/5912345678?text=Hola!%20Deseo%20comprar%20los%20Air%20Jordan%20Retro%20High" class="btn-buy" target="_blank">
+                    Comprar por WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="card-container" tabindex="0">
+          <div class="card">
+            <!-- Frente -->
+            <div class="card-front">
+              <div class="card-img-wrap">
+                <span class="badge-tag">Nuevo</span>
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80" alt="Nike Air Max Crimson">
+              </div>
+              <div class="card-front-info">
+                <span class="category">Running & Street</span>
+                <h3 class="product-title">Nike Air Max Crimson</h3>
+                <div class="price-row">
+                  <span class="price">$165.00</span>
+                  <div class="btn-trigger">Ver detalle <span class="arrow">→</span></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Reverso -->
+            <div class="card-back" style="background-image: url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80');">
+              <div class="card-back-overlay"></div>
+              <div class="card-back-content">
+                <div>
+                  <span class="detail-label">Detalles del Par</span>
+                  <h3 class="back-title">Nike Air Max Crimson</h3>
+                  <ul class="spec-list">
+                    <li><strong>Tallas disponibles:</strong> 39, 40, 41, 42 EU</li>
+                    <li><strong>Cámara de aire:</strong> Tecnología Max Air 360°</li>
+                    <li><strong>Amortiguación:</strong> Espuma React ultraligera</li>
+                    <li><strong>Uso ideal:</strong> Deportivo / Casual Urbano</li>
+                    <li><strong>Garantía:</strong> 30 días de satisfacción</li>
+                  </ul>
+                </div>
+                <div class="back-footer">
+                  <span class="stock-status">✓ Pocas Unidades</span>
+                  <a href="https://wa.me/5912345678?text=Hola!%20Deseo%20comprar%20los%20Nike%20Air%20Max%20Crimson" class="btn-buy" target="_blank">
+                    Comprar por WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="card-container" tabindex="0">
+          <div class="card">
+            <!-- Frente -->
+            <div class="card-front">
+              <div class="card-img-wrap">
+                <span class="badge-tag gold">Exclusivo</span>
+                <img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=800&q=80" alt="Puma Future Neon">
+              </div>
+              <div class="card-front-info">
+                <span class="category">Futuristic Style</span>
+                <h3 class="product-title">Puma Future Neon</h3>
+                <div class="price-row">
+                  <span class="price">$145.00</span>
+                  <div class="btn-trigger">Ver detalle <span class="arrow">→</span></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Reverso -->
+            <div class="card-back" style="background-image: url('https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=800&q=80');">
+              <div class="card-back-overlay"></div>
+              <div class="card-back-content">
+                <div>
+                  <span class="detail-label">Detalles del Par</span>
+                  <h3 class="back-title">Puma Future Neon</h3>
+                  <ul class="spec-list">
+                    <li><strong>Tallas disponibles:</strong> 37, 38, 40, 42 EU</li>
+                    <li><strong>Estructura:</strong> Malla transpirable reflectiva</li>
+                    <li><strong>Suela:</strong> Antideslizante multidireccional</li>
+                    <li><strong>Detalles:</strong> Reflejos fotoluminiscentes nocturnos</li>
+                    <li><strong>Incluye:</strong> Cordones extra de regalo</li>
+                  </ul>
+                </div>
+                <div class="back-footer">
+                  <span class="stock-status">✓ En Stock Garantizado</span>
+                  <a href="https://wa.me/5912345678?text=Hola!%20Deseo%20comprar%20los%20Puma%20Future%20Neon" class="btn-buy" target="_blank">
+                    Comprar por WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Producto 4 -->
+        <div class="card-container" tabindex="0">
+          <div class="card">
+            <!-- Frente -->
+            <div class="card-front">
+              <div class="card-img-wrap">
+                <span class="badge-tag">Tendencia</span>
+                <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=800&q=80" alt="Adidas Forum White Classic">
+              </div>
+              <div class="card-front-info">
+                <span class="category">Streetwear Minimal</span>
+                <h3 class="product-title">Adidas Forum White Classic</h3>
+                <div class="price-row">
+                  <span class="price">$150.00</span>
+                  <div class="btn-trigger">Ver detalle <span class="arrow">→</span></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Reverso -->
+            <div class="card-back" style="background-image: url('https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=800&q=80');">
+              <div class="card-back-overlay"></div>
+              <div class="card-back-content">
+                <div>
+                  <span class="detail-label">Detalles del Par</span>
+                  <h3 class="back-title">Adidas Forum White</h3>
+                  <ul class="spec-list">
+                    <li><strong>Tallas disponibles:</strong> 36 a 44 EU</li>
+                    <li><strong>Material:</strong> Cuero sintético reciclado ecológico</li>
+                    <li><strong>Diseño:</strong> Icono retro de los años 80s</li>
+                    <li><strong>Combinabilidad:</strong> Ideal para cualquier outfit</li>
+                    <li><strong>Limpieza:</strong> Fácil mantenimiento</li>
+                  </ul>
+                </div>
+                <div class="back-footer">
+                  <span class="stock-status">✓ En Stock Garantizado</span>
+                  <a href="https://wa.me/5912345678?text=Hola!%20Deseo%20comprar%20los%20Adidas%20Forum%20White" class="btn-buy" target="_blank">
+                    Comprar por WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Producto 5 -->
+        <div class="card-container" tabindex="0">
+          <div class="card">
+            <!-- Frente -->
+            <div class="card-front">
+              <div class="card-img-wrap">
+                <span class="badge-tag glow">Edición Limitada</span>
+                <img src="https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?auto=format&fit=crop&w=800&q=80" alt="Dunk Low Obsidian">
+              </div>
+              <div class="card-front-info">
+                <span class="category">Urban Skate</span>
+                <h3 class="product-title">Dunk Low Obsidian</h3>
+                <div class="price-row">
+                  <span class="price">$175.00</span>
+                  <div class="btn-trigger">Ver detalle <span class="arrow">→</span></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Reverso -->
+            <div class="card-back" style="background-image: url('https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?auto=format&fit=crop&w=800&q=80');">
+              <div class="card-back-overlay"></div>
+              <div class="card-back-content">
+                <div>
+                  <span class="detail-label">Detalles del Par</span>
+                  <h3 class="back-title">Dunk Low Obsidian</h3>
+                  <ul class="spec-list">
+                    <li><strong>Tallas disponibles:</strong> 39, 41, 42, 43 EU</li>
+                    <li><strong>Acabados:</strong> Gamuza de alta densidad y piel</li>
+                    <li><strong>Suela:</strong> Agarre optimizado para tabla/asfalto</li>
+                    <li><strong>Caja:</strong> Incluye caja de colección original</li>
+                    <li><strong>Edición:</strong> Stock ultra limitado</li>
+                  </ul>
+                </div>
+                <div class="back-footer">
+                  <span class="stock-status warning">⚡ Últimas 2 unidades</span>
+                  <a href="https://wa.me/5912345678?text=Hola!%20Deseo%20comprar%20los%20Dunk%20Low%20Obsidian" class="btn-buy" target="_blank">
+                    Comprar por WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Producto 6 -->
+        <div class="card-container" tabindex="0">
+          <div class="card">
+            <!-- Frente -->
+            <div class="card-front">
+              <div class="card-img-wrap">
+                <span class="badge-tag gold">Premium VIP</span>
+                <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=800&q=80" alt="Yeezy Boost Onyx Edition">
+              </div>
+              <div class="card-front-info">
+                <span class="category">Luxury Sneakers</span>
+                <h3 class="product-title">Yeezy Boost Onyx Edition</h3>
+                <div class="price-row">
+                  <span class="price">$220.00</span>
+                  <div class="btn-trigger">Ver detalle <span class="arrow">→</span></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Reverso -->
+            <div class="card-back" style="background-image: url('https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=800&q=80');">
+              <div class="card-back-overlay"></div>
+              <div class="card-back-content">
+                <div>
+                  <span class="detail-label">Detalles del Par</span>
+                  <h3 class="back-title">Yeezy Boost Onyx</h3>
+                  <ul class="spec-list">
+                    <li><strong>Tallas disponibles:</strong> 38, 40, 42, 44 EU</li>
+                    <li><strong>Tecnología:</strong> Suela con cápsula Boost completa</li>
+                    <li><strong>Tejido:</strong> Primeknit de ajuste anatómico tipo calcetín</li>
+                    <li><strong>Confort:</strong> Nivel supremo de amortiguación</li>
+                    <li><strong>Autenticidad:</strong> Verificada por QR oficial</li>
+                  </ul>
+                </div>
+                <div class="back-footer">
+                  <span class="stock-status">✓ En Stock Garantizado</span>
+                  <a href="https://wa.me/5912345678?text=Hola!%20Deseo%20comprar%20los%20Yeezy%20Boost%20Onyx" class="btn-buy" target="_blank">
+                    Comprar por WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Banner Motivacional Intermedio -->
+  <section class="quote-banner">
+    <div class="container">
+      <div class="quote-box">
+        <span class="quote-mark">“</span>
+        <p class="quote-text">Cada paso define quién eres. Elige calzado que esté a la altura de tus grandes metas.</p>
+        <span class="quote-author">— AMERICAN SNEAKERS TEAM —</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de Página (Footer) -->
+  <footer class="footer" id="contacto">
+    <div class="container footer-content">
+      
+      <!-- Frase Motivacional solicitada -->
+      <div class="footer-motto-card">
+        <span class="motto-icon">👣</span>
+        <blockquote class="motivational-phrase">
+          «El mundo es muy grande como para caminar sin dejar huella.»
+        </blockquote>
+      </div>
+
+      <div class="footer-links-grid">
+        <div class="footer-col">
+          <h3 class="footer-logo"><span class="logo-accent">AMERICAN</span> SNEAKERS</h3>
+          <p class="footer-desc">
+            Tu tienda de confianza para conseguir los mejores pares urbanos, deportivos y exclusivos. Estilo sin fronteras.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contacto Directo</h4>
+          <ul class="contact-info">
+            <li>📱 WhatsApp: <a href="https://wa.me/5912345678" target="_blank">+591 2345678</a></li>
+            <li>📍 Envíos directos y seguros</li>
+            <li>⏰ Atención: Lun - Sáb | 09:00 - 20:00</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Garantías</h4>
+          <ul class="footer-menu">
+            <li>✓ Calidad 100% Garantizada</li>
+            <li>✓ Cambios de talla sin costo extra</li>
+            <li>✓ Empaque protector especial</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 <strong>American Sneakers</strong>. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón Flotante de WhatsApp -->
+  <a href="https://wa.me/5912345678?text=Hola%20American%20Sneakers!%20Me%20interesan%20sus%20modelos%20de%20tenis." 
+     class="whatsapp-float" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     aria-label="Contactar por WhatsApp">
+    <div class="whatsapp-pulse"></div>
+    <svg class="whatsapp-icon" viewBox="0 0 32 32">
+      <path fill="#ffffff" d="M16 2a13.9 13.9 0 0 0-12 21L2 30l7.2-1.9A13.9 13.9 0 1 0 16 2zm0 25.5a11.5 11.5 0 0 1-5.9-1.6l-.4-.2-4.4 1.1 1.2-4.3-.3-.4a11.5 11.5 0 1 1 9.8 5.4zm6.3-8.6c-.3-.2-2-.1-2.3-1.1s-.6-.8-.8-.8-.5 0-.8 0-.8.1-1.2.5-1.5 1.5-1.5 3.6 1.5 4.2 1.7 4.5c.2.3 3 4.6 7.3 6.4 1 .4 1.8.7 2.4.9 1 .3 2 .2 2.7.1.8-.1 2.5-1 2.8-2s.3-1.9.2-2-.3-.3-.6-.5z"/>
+    </svg>
+    <span class="whatsapp-tooltip">¡Escríbenos al +5912345678!</span>
+  </a>
+
 </body>
 </html>
